@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    font-family: "Times New Roman", Georgia, Serif;
+    /* position: relative; */
+}
+/* haader */
+header,.header-first,.header-second{
+    width: 100%;
+}
+.header-first{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    /* position: fixed;*/
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgba(128, 128, 128, 0.466);
+}
+.menu{
+    list-style-type:none;
+    display: flex;
+}
+.menu li {
+    margin-left: 25px;
+}
+/* Images */
+.header-second{
+    position: relative;
+}
+.header-second img{
+    width: 100%;
+}
+.header-second .img-title{
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 3%;
+    opacity: .5;
+}
+/* Main body */
+main{
+    width: 1100px;
+    margin:0 auto;
+}
+/* Part1 */
+.main-part1,.main-part2{
+    display: flex;
+}
+.first-part1 ,.second-part1,.menu-list,.menu-img{
+    width: 50%;
+    padding: 3%;
+}
+.first-part1 img,.menu-img img{
+    width: 100%;
+}
+.second-part1{
+    margin-top: 3%;
+}
+.second-part1 h1,h4,.menu-list h1{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+.second-part1 h1{
+    margin-bottom: 40px;
+}
+.second-part1 h4{
+    margin-bottom: 20px;
+}
+.second-part1 p{
+    line-height: 1.5;
+}
+/* part2 */
+.menu-list h1,.main-part3 h1{
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+.menu-list-info{
+    margin-bottom: 40px ;
+}
+.menu-list-info h2,p{
+    font-weight: 100;
+}
+.menu-list-info h2{
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+/* Part 3 Contact */
+.main-part3{
+    padding: 3%;
+}
+.contact-info p,h3,p{
+    margin-bottom: 30px;
+}
+.contact-info h3{
+    color:#607d8b;
+}
+.main-part3 form input{
+    width: 100%;
+    margin: 10px;
+    padding: 16px 8px;
+    border:none;
+    border-bottom: 2px solid #ccc;
+}
+.main-part3 form button{
+    background-color: #f1f1f1;
+    padding:8px 16px;
+    border: none;
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 32px 0;
+}
+/* mdeia screen */
+@media only screen and (max-width:1020px) {
+    .main-part2{
+        display: block;
+    }
+    .menu-list,.menu-img{
+        width: 100%;
+    }
+
+}
